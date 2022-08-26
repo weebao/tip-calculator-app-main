@@ -1,0 +1,79 @@
+@import 'Color';
+
+.bill-display {
+  max-width: 25rem;
+  padding: 2.5rem;
+  border-radius: 15px;
+
+  background-color: $very-dark-cyan;
+  color: white;
+
+  .display-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    .display-label {
+      min-width: 7rem;
+
+      h4,
+      h5 {
+        margin: 0;
+      }
+
+      h5 {
+        color: $dark-grayish-cyan;
+      }
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: $strong-cyan;
+      text-align: right;
+
+      margin: 0;
+    }
+  }
+
+  .reset-btn {
+    width: 100%;
+    height: auto;
+
+    margin-top: 6rem;
+
+    border: none;
+    border-radius: 5px;
+    background-color: $strong-cyan;
+    padding: 0.5rem;
+
+    color: $very-dark-cyan;
+    font-size: 20px;
+
+    cursor: pointer;
+
+    &:hover {
+      transition: 100ms;
+      background-color: $light-cyan;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .bill-display {
+    max-width: 100%;
+    padding: 1.5rem 1.5rem;
+
+    .display-amount {
+      margin: 1rem 0rem;
+    }
+
+    h1 {
+      font-size: 2.25rem !important;
+    }
+  }
+
+  .reset-btn {
+    margin-top: 1rem !important;
+  }
+}

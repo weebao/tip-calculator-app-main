@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+.bill-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem;
+}
+.bill-input #bill {
+  background-image: url("../images/icon-dollar.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+}
+.bill-input #bill::-moz-placeholder {
+  color: hsl(184deg, 19%, 68%);
+}
+.bill-input #bill:-ms-input-placeholder {
+  color: hsl(184deg, 19%, 68%);
+}
+.bill-input #bill::placeholder {
+  color: hsl(184deg, 19%, 68%);
+}
+.bill-input #people {
+  background-image: url("../images/icon-person.svg");
+  background-repeat: no-repeat;
+  background-position: 5%;
+}
+.bill-input #people::-moz-placeholder {
+  color: hsl(184deg, 19%, 68%);
+}
+.bill-input #people:-ms-input-placeholder {
+  color: hsl(184deg, 19%, 68%);
+}
+.bill-input #people::placeholder {
+  color: hsl(184deg, 19%, 68%);
+}
+.bill-input .label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+.bill-input .label span {
+  color: #D47257;
+}
+.bill-input .input-form {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: hsl(180deg, 37%, 97%);
+  caret-color: hsl(172deg, 67%, 45%);
+  color: hsl(183deg, 100%, 15%);
+  font-size: 24px;
+  text-align: right;
+}
+.bill-input .input-form:focus {
+  box-shadow: 0 0 0 2px hsl(172deg, 67%, 45%);
+}
+.bill-input .input-form::-moz-placeholder {
+  color: hsl(186deg, 14%, 43%);
+}
+.bill-input .input-form:-ms-input-placeholder {
+  color: hsl(186deg, 14%, 43%);
+}
+.bill-input .input-form::placeholder {
+  color: hsl(186deg, 14%, 43%);
+}
+.bill-input .tip-percent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+  grid-gap: 1rem;
+  font-size: 24px;
+  color: white;
+}
+.bill-input .tip-percent input[type=radio] {
+  display: none;
+}
+.bill-input .tip-percent input[type=radio]:checked + label {
+  color: hsl(183deg, 100%, 15%);
+  background-color: hsl(172deg, 67%, 45%);
+}
+.bill-input .tip-percent label {
+  background-color: hsl(183deg, 100%, 15%);
+  transition: 100ms;
+}
+.bill-input .tip-percent label:hover {
+  color: hsl(183deg, 100%, 15%);
+  background-color: hsl(173deg, 61%, 77%);
+  cursor: pointer;
+}
+.bill-input .tip-percent label,
+.bill-input .tip-percent input[type=number] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  padding: 0.5rem 0rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+.bill-input .tip-percent input[type=number] {
+  position: inherit;
+}
+.bill-input .error-msg {
+  text-align: right;
+}
+.bill-input .error-input {
+  box-shadow: 0 0 0 2px #D47257;
+}
+.bill-input .error-input:focus {
+  box-shadow: 0 0 0 2px #D47257;
+}
+
+@media only screen and (max-width: 1000px) {
+  .tip-percent {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+.bill-display {
+  max-width: 25rem;
+  padding: 2.5rem;
+  border-radius: 15px;
+  background-color: hsl(183deg, 100%, 15%);
+  color: white;
+}
+.bill-display .display-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.bill-display .display-amount .display-label {
+  min-width: 7rem;
+}
+.bill-display .display-amount .display-label h4,
+.bill-display .display-amount .display-label h5 {
+  margin: 0;
+}
+.bill-display .display-amount .display-label h5 {
+  color: hsl(186deg, 14%, 43%);
+}
+.bill-display .display-amount h1 {
+  font-size: 3rem;
+  color: hsl(172deg, 67%, 45%);
+  text-align: right;
+  margin: 0;
+}
+.bill-display .reset-btn {
+  width: 100%;
+  height: auto;
+  margin-top: 6rem;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(172deg, 67%, 45%);
+  padding: 0.5rem;
+  color: hsl(183deg, 100%, 15%);
+  font-size: 20px;
+  cursor: pointer;
+}
+.bill-display .reset-btn:hover {
+  transition: 100ms;
+  background-color: hsl(173deg, 61%, 77%);
+}
+
+@media only screen and (max-width: 1000px) {
+  .bill-display {
+    max-width: 100%;
+    padding: 1.5rem 1.5rem;
+  }
+  .bill-display .display-amount {
+    margin: 1rem 0rem;
+  }
+  .bill-display h1 {
+    font-size: 2.25rem !important;
+  }
+  .reset-btn {
+    margin-top: 1rem !important;
+  }
+}
+html {
+  background-color: hsl(185deg, 41%, 84%);
+}
+
+* {
+  font-family: "Space Mono";
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsl(186deg, 14%, 43%);
+}
+.App header img {
+  padding-bottom: 5rem;
+}
+.App .bill-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  box-sizing: border-box;
+  border-radius: 25px;
+  padding: 2rem;
+  background-color: white;
+}
+.App .bill-card .bill-input {
+  flex: 1.2;
+}
+.App .bill-card .bill-display {
+  flex: 1;
+}
+.App .hide-spin::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+  margin: 0;
+}
+.App .hide-spin::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+  margin: 0;
+}
+.App .resetBtn {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1001px) {
+  .App {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .App .bill-card {
+    width: 60rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .App .bill-card {
+    padding: 1rem;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=App.css.map */
