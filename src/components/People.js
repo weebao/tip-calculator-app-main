@@ -20,6 +20,7 @@ function People({people, dispatch, inputRef}) {
       <input 
         type="number" 
         id="people" 
+        autoComplete="off"
         placeholder="0" 
         className="input-form hide-spin"
         ref={inputRef}

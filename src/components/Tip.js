@@ -25,7 +25,7 @@ function Tip({tip, dispatch, inputRef}) {
         <input id="tip50" type="radio" checked={tip == 50} name="50" value="50" />
         <label for="tip50">50%</label>
         <span>
-          <input type="number" className="input-form hide-spin" name="custom-tip" placeholder="Custom" ref={inputRef}/>
+          <input type="number" className="input-form hide-spin" autoComplete="off" name="custom-tip" placeholder="Custom" ref={inputRef}/>
         </span>
       </div>
     </div>

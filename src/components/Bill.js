@@ -27,6 +27,7 @@ function Bill({bill, dispatch, inputRef}) {
         type="text" 
         className="input-form" 
         id="bill" 
+        autoComplete="off"
         placeholder="0.00"
         ref={inputRef}
         onFocus={event => {
