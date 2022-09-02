@@ -235,7 +235,7 @@ html {
 @media only screen and (min-width: 1001px) {
   .App {
     position: fixed;
-    top: 45%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
