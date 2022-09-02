@@ -103,7 +103,7 @@
   box-sizing: border-box;
   text-align: center;
 }
-.bill-input .tip-percent input[type=number] {
+.bill-input input[type=number] {
   position: inherit;
   -moz-appearance: textfield;
 }
