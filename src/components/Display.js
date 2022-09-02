@@ -15,14 +15,14 @@ function Display({tipPerPerson, totalPerPerson}) {
           <h4>Tip Amount</h4>
           <h5>/ person</h5>
         </div>
-        <h1>{formatter.format(tipPerPerson)}</h1>
+        <h3>{formatter.format(tipPerPerson)}</h3>
       </span>
       <span className="display-amount">
         <div className="display-label">
           <h4>Total</h4>
           <h5>/ person</h5>
         </div>
-        <h1>{formatter.format(totalPerPerson)}</h1>
+        <h3>{formatter.format(totalPerPerson)}</h3>
       </span>
     </div>
   );

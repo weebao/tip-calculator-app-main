@@ -144,7 +144,7 @@
 .bill-display .display-amount .display-label h5 {
   color: hsl(186deg, 14%, 43%);
 }
-.bill-display .display-amount h1 {
+.bill-display .display-amount h3 {
   font-size: 3rem;
   color: hsl(172deg, 67%, 45%);
   text-align: right;
