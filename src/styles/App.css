@@ -205,6 +205,7 @@ html {
   display: flex;
   flex-direction: row;
   gap: 2rem;
+  box-shadow: 0px 20px 40px 0px hsl(184deg, 19%, 68%);
   box-sizing: border-box;
   border-radius: 25px;
   padding: 2rem;
@@ -238,7 +239,7 @@ html {
     transform: translate(-50%, -50%);
   }
   .App .bill-card {
-    width: 60rem;
+    width: 55rem;
   }
 }
 @media only screen and (max-width: 1000px) {

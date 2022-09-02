@@ -3,7 +3,7 @@
 @import 'Color';
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 
-$desktop-card-size: 60rem;
+$desktop-card-size: 55rem;
 
 html {
     background-color: $light-grayish-cyan;
@@ -32,6 +32,8 @@ html {
         display: flex;
         flex-direction: row;
         gap: 2rem;
+
+        box-shadow: 0px 20px 40px 0px $slightly-light-grayish-cyan;
 
         box-sizing: border-box;
         border-radius: 25px;
