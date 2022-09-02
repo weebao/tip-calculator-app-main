@@ -234,12 +234,12 @@ html {
 @media only screen and (min-width: 1001px) {
   .App {
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   .App .bill-card {
-    width: 55rem;
+    width: 57rem;
   }
 }
 @media only screen and (max-width: 1000px) {

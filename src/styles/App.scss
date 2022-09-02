@@ -3,7 +3,7 @@
 @import 'Color';
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 
-$desktop-card-size: 55rem;
+$desktop-card-size: 57rem;
 
 html {
     background-color: $light-grayish-cyan;
@@ -69,7 +69,7 @@ html {
 @media only screen and (min-width: 1001px) {
     .App {
         position: fixed;
-        top: 50%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
 
