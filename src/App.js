@@ -68,6 +68,7 @@ function App() {
   return (
     <div className="App">
       <header>
+        <h1 style={{"display": "none"}} >Splitter</h1>
         <img src={logo} alt="Logo of Splitter being divided to two lines" />
       </header>
       <main className="bill-card">
