@@ -198,6 +198,10 @@ html {
   align-items: center;
   color: hsl(186deg, 14%, 43%);
 }
+.App header h1 {
+  visibility: hidden;
+  margin: 0;
+}
 .App header img {
   padding-bottom: 5rem;
 }
