@@ -21,8 +21,8 @@ This is my second React app which is a bill calculator that calculates the amoun
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/more-react-hooks-better-file-organization-better-scss-use-learned-lzyA4KOua9)
+- Live Site URL: [Tip Calculator](https://tip-calculator-app-main-pied.vercel.app/)
 
 ## My process
 - I always started with styling first but this time I focused on making sure the components work properly before adding any styling.
