@@ -27,6 +27,7 @@ This is my second React app which is a bill calculator that calculates the amoun
 ## My process
 - I always started with styling first but this time I focused on making sure the components work properly before adding any styling.
 - I started with adding components, then looked up different React Hooks and learned their basics.
+- Since there are so many components, it becomes confusing, so I started looking up different file structures for web developing.
 - After a week, I had all the components working properly so I moved on with styling.
 - Surprisingly, styling everything took me more than a week since there are different indicators to consider and also because I wanted to add some more features.
 - After making sure the app work properly and look close to the original design, I used Vercel for the first time to deploy my app.
