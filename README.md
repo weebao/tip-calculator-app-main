@@ -70,5 +70,5 @@ This is one of the coolest features I added, which is that the tip percent butto
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Bao Dang](https://github.com/weebao)
+- Frontend Mentor - [@Bao Dang](https://www.frontendmentor.io/profile/weebao)
