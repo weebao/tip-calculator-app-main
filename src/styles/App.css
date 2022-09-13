@@ -198,9 +198,16 @@ html {
   align-items: center;
   color: hsl(186deg, 14%, 43%);
 }
-.App header h1 {
-  visibility: hidden;
+.App header .hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
   margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
 }
 .App header img {
   padding-bottom: 5rem;

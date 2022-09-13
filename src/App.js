@@ -68,7 +68,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Splitter</h1>
+        <h1 class="hidden">Splitter</h1>
         <img src={logo} alt="Logo of Splitter being divided to two lines" />
       </header>
       <main className="bill-card">
