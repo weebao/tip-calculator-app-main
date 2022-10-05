@@ -6,6 +6,7 @@ import People from './components/People.js';
 import Display from './components/Display.js';
 import logo from './images/logo.svg';
 
+// Manage different input updates
 function reducer(state, action) {
   switch(action.type) {
     case 'bill':
@@ -32,11 +33,14 @@ function calculate(state, bill, tip, people) {
   let tipPerPerson = state.tipPerPerson;
   let totalPerPerson = state.totalPerPerson;
 
+  // Calculate total and tip values
   if (bill >= 0 && tip >= 0 && people > 0) {
     tipPerPerson = (bill * tip / 100) / people;
     totalPerPerson = (bill / people) + tipPerPerson;
     console.log('calculated');
   }
+
+  // Update tip and total values while keeping old values (state) if one doesn't update
   return {...state, tipPerPerson: tipPerPerson, totalPerPerson: totalPerPerson};
 }
 
@@ -53,6 +57,7 @@ function App() {
   const tipRef = useRef(null);
   const peopleRef = useRef(null);
 
+  // Reset values including error notes and state variables 
   function handleReset(event) {
     billRef.current.value = '';
     tipRef.current.value = '';

@@ -3,6 +3,7 @@ import Error from './Error.js';
 import '../styles/App.css';
 
 function People({people, dispatch, inputRef}) {
+  // Dispatch people value after rounding it up
   function handleNum(event) {
     let peopleNum = event.target.value;
     dispatch({

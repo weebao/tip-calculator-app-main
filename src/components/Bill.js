@@ -2,11 +2,13 @@ import React from 'react';
 import Error from './Error.js';
 import '../styles/App.css';
 
+// Formatting bill number
 var formatter = new Intl.NumberFormat('en-US', {
   minimumFractionDigits: 2
 });
 
 function Bill({bill, dispatch, inputRef}) {
+  // Dispatching bill value
   function handleBill(event) {
     if (!isNaN(event.target.value)) {
       let billAmount = Math.round((event.target.value) * 100) / 100;

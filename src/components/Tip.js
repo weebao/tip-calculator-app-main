@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/App.css';
 
 function Tip({tip, dispatch, inputRef}) {
+  // Dispatch tip value
   function handleTip(event) {
     let tipAmount = event.target.value;
     dispatch({
@@ -14,6 +15,7 @@ function Tip({tip, dispatch, inputRef}) {
     <div>
       <div className="label">Select Tip %</div>
       <div className="tip-percent" onChange={handleTip} >
+        {/* Highlight tip button if it matches the custom amount */}
         <input id="tip5" type="radio" checked={tip == 5} name="5" value="5" />
         <label for="tip5">5%</label>
         <input id="tip10" type="radio" checked={tip == 10} name="10" value="10" />
