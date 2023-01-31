@@ -9,6 +9,7 @@
 - [My process](#my-process)
   - [Challenges](#challenges)
   - [Built with](#built-with)
+  - [Code Highlights](#code-highlights)
 - [Author](#author)
 
 
