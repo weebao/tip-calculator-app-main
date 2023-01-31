@@ -13,6 +13,8 @@
 
 
 ## Introduction
+
+### Introduction
 This is my second React app which is a bill calculator that calculates the amount a person pay including the tip.
 
 ### Screenshot
