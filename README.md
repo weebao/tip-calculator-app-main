@@ -72,5 +72,5 @@ This is one of the coolest features I added, which is that the tip percent butto
 
 ## Author
 
-- Website - [Bao Dang](https://github.com/weebao)
+- GitHub - [Bao Dang](https://github.com/weebao)
 - Frontend Mentor - [@Bao Dang](https://www.frontendmentor.io/profile/weebao)
