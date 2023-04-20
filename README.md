@@ -1,7 +1,7 @@
 # Frontend Mentor - Tip Calculator App Solution
 
 ## Table of contents
-
+- [Installation](#installation)
 - [Overview](#overview)
   - [Introduction](#introduction)
   - [Screenshot](#screenshot)
@@ -12,6 +12,20 @@
   - [Code Highlights](#code-highlights)
 - [Author](#author)
 
+## Installation
+Clone the repo to your local computer:
+```
+git clone https://github.com/weebao/tip-calculator-app-main.git
+```
+Install all the necessary packages and modules
+```
+npm install
+```
+To run the web app on a locally hosted website:
+```
+npm start
+```
+Enjoy!
 
 ## Overview
 
