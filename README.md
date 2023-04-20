@@ -22,7 +22,7 @@ Install and build all the necessary packages and modules
 npm install
 npm build
 ```
-To run the web app on a locally hosted website:
+To run the web app on a locally hosted server:
 ```
 npm start
 ```
