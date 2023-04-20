@@ -17,7 +17,7 @@ Clone the repo to your local computer:
 ```
 git clone https://github.com/weebao/tip-calculator-app-main.git
 ```
-Install and build all the necessary packages and modules
+Install and build all the necessary packages and modules:
 ```
 npm install
 npm build
