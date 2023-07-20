@@ -1,4 +1,4 @@
-# Frontend Mentor - Tip Calculator App Solution
+# Tip Calculator App
 
 ## Table of contents
 - [Installation](#installation)
